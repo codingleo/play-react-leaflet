@@ -52,7 +52,7 @@ function AddressInput (props: any) {
     return function () {
       clearTimeout(handler)
     }
-  }, [query])
+  }, [query, map])
 
   return (
     <>
